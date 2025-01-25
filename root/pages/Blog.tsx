@@ -9,7 +9,7 @@ const blogPosts = [
     date: '2024-03-15',
     readTime: '5 min read',
     image: 'https://images.unsplash.com/photo-1568952433726-3896e3881c65?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D',
-    url: 'https://medium.com/@vikassrinivasa/transformers-and-how-they-work-part-1' // Add your blog link here
+    url: 'https://medium.com/@vikassrinivasa/tranformers-your-goto-page-to-know-it-all-39379b373f3c' // Add your blog link here
   },
   // Add more blog posts with URLs if needed
 ];
