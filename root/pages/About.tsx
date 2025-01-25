@@ -74,8 +74,10 @@ const About = () => {
               <h3 className="text-lg font-semibold text-gray-900">Intern</h3>
               <p className="text-gray-600">Toosi • Sept 2023 - Dec 2023</p>
               <ul className="mt-2 text-gray-600 list-disc list-inside">
-                <li>✅ Attempted to fine tune LLama model for question answering</li>
-                <li>🔎 Built data scraping pipelines using scrapy</li>
+              <li>✅ Conducted experiments in fine-tuning the LLaMA 2 model to enhance performance</li>
+  <li>🔎 Developed and optimized data scraping pipelines using Scrapy for structured data extraction</li>
+  <li>📖 Researched and explored Retrieval-Augmented Generation (RAG) techniques for improving question-answering systems</li>
+
               </ul>
             </div>
           </div>
