@@ -1,6 +1,6 @@
 import React from 'react';
 import { Code, Briefcase, GraduationCap } from 'lucide-react';
-import ProfileImage from '../assets/VikasSrinivasa.jpeg';
+import ProfileImage from '../public/VikasSrinivasa.jpeg';
 
 
 const About = () => {
