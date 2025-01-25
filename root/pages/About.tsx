@@ -1,5 +1,7 @@
 import React from 'react';
 import { Code, Briefcase, GraduationCap } from 'lucide-react';
+import ProfileImage from '../assets/VikasSrinivasa.jpeg';
+
 
 const About = () => {
   return (
@@ -11,11 +13,17 @@ const About = () => {
 
         {/* Profile Section */}
         <div className="text-center">
-          <img
+          {/* <img
             src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2055&q=80"
             alt="Profile"
             className="w-48 h-48 rounded-full mx-auto mb-6 object-cover shadow-lg transition-transform hover:scale-105"
+          /> */}
+          <img
+            src={ProfileImage}
+            alt="Vikas Srinivasa"
+            className="w-48 h-48 rounded-full mx-auto mb-6 object-cover shadow-lg transition-transform hover:scale-105"
           />
+
           <p className="text-gray-600 text-lg leading-relaxed">
             Hi! I am an <strong>AI & FinTech enthusiast</strong> and <strong>machine learning engineer</strong> based in Bengaluru, India. 
             My passion lies in developing <strong>AI-driven solutions</strong>, cutting-edge <strong>financial technologies</strong>, and 
