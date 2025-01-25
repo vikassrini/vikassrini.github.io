@@ -66,16 +66,16 @@ const About = () => {
               <p className="text-gray-600">Intuitifi • 2024 - Present</p>
               <ul className="mt-2 text-gray-600 list-disc list-inside">
                 <li>🚀 Leading AI-driven financial literacy & planning tools development</li>
-                <li>🤖 Built RAG-based chatbot using GPT-4 Turbo</li>
-                <li>📊 Integrated NER, text summarization, and stock trading insights</li>
+                <li>🤖 Built RAG-based chatbot using GPT-4 Turbo to help users intuitively understand health insurance</li>
+                <li>📊 Built a trading strategy which uses NER and sentiment analysis to integrate new events with technical analysis</li>
               </ul>
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-900">Intern</h3>
               <p className="text-gray-600">Toosi • Sept 2023 - Dec 2023</p>
               <ul className="mt-2 text-gray-600 list-disc list-inside">
-                <li>✅ Developed a Llama 2-based chatbot with LangChain & LlamaIndex</li>
-                <li>🔎 Built data scraping pipelines and fine-tuned AI models</li>
+                <li>✅ Attempted to fine tune LLama model for question answering</li>
+                <li>🔎 Built data scraping pipelines using scrapy</li>
               </ul>
             </div>
           </div>
@@ -99,9 +99,11 @@ const About = () => {
                 </a>
               </p>
               <ul className="mt-2 text-gray-600 list-disc list-inside">
-                <li>📊 Developed a GPT-4-powered financial AI assistant for investment insights</li>
-                <li>📈 Implemented AI-based stock selection and trading analysis</li>
+                <li>📊 Designed and developed a GPT-4-powered financial AI assistant, delivering insightful investment analysis</li>
+                <li>💡 Led the conceptualization and strategic direction of the project</li>
+                <li>📝 Engineered and optimized prompts to enhance AI-driven decision-making</li>
               </ul>
+
             </div>
             <div>
               <h3 className="text-lg font-semibold text-gray-900">Real-Time AI Physician Chatbot</h3>
@@ -114,8 +116,10 @@ const About = () => {
                 </a>
               </p>
               <ul className="mt-2 text-gray-600 list-disc list-inside">
-                <li>🤖 Created an interactive 3D AI avatar with Google Text-to-Speech</li>
-                <li>🔬 Integrated a Medical RAG model for intelligent blood report insights</li>
+                <li>🩺 Developed an AI-powered physician chatbot using FastAPI and GPT-4 for intelligent medical assistance</li>
+                <li>📄 Implemented a RAG-based system enabling users to upload and analyze medical reports for enhanced contextual insights</li>
+                <li>🤖 Designed and animated an interactive 3D AI avatar using Blender for a more engaging user experience</li>
+                <li>🔊 Integrated Google Text-to-Speech, allowing the AI avatar to deliver spoken responses for improved accessibility</li>
               </ul>
             </div>
           </div>
