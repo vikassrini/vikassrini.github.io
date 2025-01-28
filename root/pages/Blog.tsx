@@ -4,12 +4,12 @@ import { Calendar, Clock, ChevronRight } from 'lucide-react';
 const blogPosts = [
   {
     id: 1,
-    title: 'Transformers and How They Work - Part 1',
-    excerpt: 'Learn how transformers work intuitively',
-    date: '2024-03-15',
-    readTime: '5 min read',
+    title: 'Transformers: An Intuitive Guide',
+    excerpt: 'Ever wondered how transformers power AI models like GPT & BERT? "Transformers: An Intuitive Guide" breaks down these concepts step by step, making deep learning accessible to everyone.',
+    date: '2024-01-28',
+    readTime: '9 min read',
     image: 'https://images.unsplash.com/photo-1568952433726-3896e3881c65?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHRlY2hub2xvZ3l8ZW58MHx8MHx8fDA%3D',
-    url: 'https://medium.com/@vikassrinivasa/tranformers-your-goto-page-to-know-it-all-39379b373f3c' // Add your blog link here
+    url: 'https://transformers-goto-guide.hashnode.dev/' // Add your blog link here
   },
   // Add more blog posts with URLs if needed
 ];
