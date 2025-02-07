@@ -34,7 +34,7 @@ export interface BlogSeries {
           excerpt: 'Learn How Transformers Operate Intuitively : The Basics of Tokenization, Embeddings and Positional Encoding',
           date: '2025-01-28',
           readTime: '9 min read',
-          image: 'https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024_1280.jpg',
+          image: 'https://cdn.pixabay.com/photo/2023/06/13/16/37/ai-generated-8061337_1280.jpg',
           hashnodeUrl: 'https://transformers-goto-guide.hashnode.dev/how-transformers-work-tokenization-embeddings-and-positional-encoding-explained-part-1'
         },
         {
@@ -45,7 +45,7 @@ export interface BlogSeries {
           excerpt: 'Deep dive into the self-attention mechanism that powers transformer models.',
           date: '2025-02-06',
           readTime: '12 min read',
-          image: 'https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024_1280.jpg',
+          image: 'https://cdn.pixabay.com/photo/2023/06/13/16/37/ai-generated-8061337_1280.jpg',
           hashnodeUrl: 'https://transformers-goto-guide.hashnode.dev/transformer-encoder-explained-a-deep-dive-into-attention-scores-part-2'
         },
         {
@@ -56,7 +56,7 @@ export interface BlogSeries {
             excerpt: 'Explore the significance of Query, Key, and Value matrices in transformers, and understand their roles through intuitive explanations and analogies',
             date: '2025-02-06',
             readTime: '7 min read',
-            image: 'https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024_1280.jpg',
+            image: 'https://cdn.pixabay.com/photo/2023/06/13/16/37/ai-generated-8061337_1280.jpg',
             hashnodeUrl: 'https://transformers-goto-guide.hashnode.dev/understanding-the-role-of-query-key-and-value-in-transformer-models'
           }
       ]

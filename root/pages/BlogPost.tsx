@@ -16,7 +16,7 @@ const BlogPost = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-900">Post not found</h1>
-          <Link to="/blog" className="mt-4 inline-flex items-center text-indigo-600 hover:text-indigo-500">
+          <Link to="/blog" className="mt-4 inline-flex items-center text-primary-600 hover:text-primary-500">
             <ArrowLeft className="mr-2 h-5 w-5" />
             Back to Blog
           </Link>
@@ -30,7 +30,7 @@ const BlogPost = () => {
       <div className="flex justify-between items-center mb-8">
         <Link 
           to={`/blog/series/${series.id}`}
-          className="inline-flex items-center text-indigo-600 hover:text-indigo-500"
+          className="inline-flex items-center text-primary-600 hover:text-primary500"
         >
           <ArrowLeft className="mr-2 h-5 w-5" />
           Back to Series

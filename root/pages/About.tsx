@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
       <div className="max-w-3xl mx-auto">
-        <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl text-center mb-8">
+      <h1 className="font-display text-4xl font-bold text-gray-900 sm:text-5xl text-center mb-8">
           About Me
         </h1>
 
@@ -35,19 +35,19 @@ const About = () => {
         {/* Skills Section */}
         <section className="mt-12">
           <div className="flex items-center space-x-3 mb-4">
-            <Code className="h-6 w-6 text-indigo-600" />
-            <h2 className="text-2xl font-bold text-gray-900">Skills</h2>
+            <Code className="h-6 w-6 text-primary-600" />
+            <h2 className="font-display text-2xl font-bold text-gray-900">Skills</h2>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {[
               'Python', 'Machine Learning', 'Deep Learning', 'NLP', 'Sentiment Analysis', 
-              'FastAPI', 'PyTorch', 'AI-Driven Trading Strategies', 'LangChain', 'LlamaIndex', 
-              'RAG', 'Vector Databases (Weaviate)'
+              'FastAPI', 'PyTorch', 'LangChain', 'LlamaIndex', 
+              'Retrieval Augmented Generation (RAG)', 'Vector Databases (Weaviate)','AI-Driven Trading Strategies'
             ].map((skill) => (
               <div
                 key={skill}
-                className="bg-gray-50 rounded-lg px-4 py-2 text-center text-gray-700 shadow-sm transition-transform hover:scale-105"
-              >
+                className="bg-primary-50 rounded-lg px-4 py-2 text-center text-primary-700 font-medium shadow-soft hover:bg-primary-100 transition-colors"
+                  >
                 {skill}
               </div>
             ))}
@@ -57,8 +57,8 @@ const About = () => {
         {/* Experience Section */}
         <section className="mt-12">
           <div className="flex items-center space-x-3 mb-4">
-            <Briefcase className="h-6 w-6 text-indigo-600" />
-            <h2 className="text-2xl font-bold text-gray-900">Experience</h2>
+            <Briefcase className="h-6 w-6 text-primary-600" />
+            <h2 className="font-display text-2xl font-bold text-gray-900">Experience</h2>
           </div>
           <div className="space-y-6">
             <div>
@@ -85,7 +85,7 @@ const About = () => {
         {/* Projects Section */}
         <section className="mt-12">
           <div className="flex items-center space-x-3 mb-4">
-            <Code className="h-6 w-6 text-indigo-600" />
+            <Code className="h-6 w-6 text-primary-600" />
             <h2 className="text-2xl font-bold text-gray-900">Projects</h2>
           </div>
           <div className="space-y-6">
@@ -94,7 +94,7 @@ const About = () => {
               <p className="text-gray-600">
                 <a 
                   href="https://github.com/vishwasg217/fin-sight" 
-                  className="text-indigo-600 hover:underline"
+                  className="text-primary-600 hover:underline"
                 >
                   AI-driven financial insights & stock analysis
                 </a>
@@ -111,7 +111,7 @@ const About = () => {
               <p className="text-gray-600">
                 <a 
                   href="https://github.com/vikassrini/PhysicianAI-Chatbot" 
-                  className="text-indigo-600 hover:underline"
+                  className="text-primary-600 hover:underline"
                 >
                  AI-driven healthcare chatbot
                 </a>
@@ -129,8 +129,8 @@ const About = () => {
         {/* Education Section */}
         <section className="mt-12">
           <div className="flex items-center space-x-3 mb-4">
-            <GraduationCap className="h-6 w-6 text-indigo-600" />
-            <h2 className="text-2xl font-bold text-gray-900">Education</h2>
+            <GraduationCap className="h-6 w-6 text-primary-600" />
+            <h2 className="font-display text-2xl font-bold text-gray-900">Education</h2>
           </div>
           <div>
             <h3 className="text-lg font-semibold text-gray-900">Bachelor's in Computer Science</h3>

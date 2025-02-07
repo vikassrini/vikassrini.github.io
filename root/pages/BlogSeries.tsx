@@ -12,7 +12,7 @@ const BlogSeries = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="text-center">
           <h1 className="text-4xl font-bold text-gray-900">Series not found</h1>
-          <Link to="/blog" className="mt-4 inline-flex items-center text-indigo-600 hover:text-indigo-500">
+          <Link to="/blog" className="mt-4 inline-flex items-center text-primary-600 hover:text-primary-500">
             <ArrowLeft className="mr-2 h-5 w-5" />
             Back to Blog
           </Link>
@@ -23,7 +23,7 @@ const BlogSeries = () => {
 
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <Link to="/blog" className="inline-flex items-center text-indigo-600 hover:text-indigo-500 mb-8">
+      <Link to="/blog" className="inline-flex items-center text-primary-600 hover:text-primary-500 mb-8">
         <ArrowLeft className="mr-2 h-5 w-5" />
         Back to Blog
       </Link>
@@ -39,7 +39,7 @@ const BlogSeries = () => {
             key={post.id}
             className="flex gap-8 bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
           >
-            <div className="flex-none w-16 bg-indigo-600 flex items-center justify-center">
+            <div className="flex-none w-16 bg-primary-600 flex items-center justify-center">
               <span className="text-2xl font-bold text-white">{post.partNumber}</span>
             </div>
             <div className="flex-grow py-6 pr-6">
@@ -63,7 +63,7 @@ const BlogSeries = () => {
                 href={post.hashnodeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-indigo-600 hover:text-indigo-500"
+                className="inline-flex items-center text-primary-600 hover:text-primary-500"
               >
                 Read Article
                 <ExternalLink className="ml-1 h-4 w-4" />

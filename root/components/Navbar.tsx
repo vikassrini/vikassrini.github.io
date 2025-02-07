@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <NavLink to="/" className="flex items-center space-x-2">
-              <Code className="h-8 w-8 text-indigo-600" />
+              <Code className="h-8 w-8 text-primary-600" />
               {/* <span className="font-bold text-xl text-gray-900"></span> */}
             </NavLink>
           </div>
@@ -21,8 +21,8 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                `text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                  isActive ? 'text-indigo-600' : ''
+                `text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  isActive ? 'text-primary-600' : ''
                 }`
               }
             >
@@ -31,8 +31,8 @@ const Navbar = () => {
             <NavLink
               to="/about"
               className={({ isActive }) =>
-                `text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                  isActive ? 'text-indigo-600' : ''
+                `text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  isActive ? 'text-primary-600' : ''
                 }`
               }
             >
@@ -41,8 +41,8 @@ const Navbar = () => {
             <NavLink
               to="/blog"
               className={({ isActive }) =>
-                `text-gray-700 hover:text-indigo-600 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                  isActive ? 'text-indigo-600' : ''
+                `text-gray-700 hover:text-primary-500 px-3 py-2 rounded-md text-sm font-medium transition-colors ${
+                  isActive ? 'text-primary-600' : ''
                 }`
               }
             >
@@ -75,8 +75,8 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `block px-3 py-2 rounded-md text-base font-medium ${
                   isActive
-                    ? 'text-indigo-600 bg-indigo-50'
-                    : 'text-gray-700 hover:text-indigo-600 hover:bg-gray-50'
+                    ? 'text-primary-600 bg-indigo-50'
+                    : 'text-gray-700 hover:text-primary-500 hover:bg-gray-50'
                 }`
               }
               onClick={() => setIsOpen(false)}
@@ -88,8 +88,8 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `block px-3 py-2 rounded-md text-base font-medium ${
                   isActive
-                    ? 'text-indigo-600 bg-indigo-50'
-                    : 'text-gray-700 hover:text-indigo-600 hover:bg-gray-50'
+                    ? 'text-primary-600 bg-indigo-50'
+                    : 'text-primary-600 hover:text-primary-500 hover:bg-gray-50'
                 }`
               }
               onClick={() => setIsOpen(false)}
@@ -101,8 +101,8 @@ const Navbar = () => {
               className={({ isActive }) =>
                 `block px-3 py-2 rounded-md text-base font-medium ${
                   isActive
-                    ? 'text-indigo-600 bg-indigo-50'
-                    : 'text-gray-700 hover:text-indigo-600 hover:bg-gray-50'
+                    ? 'text-primary-600 bg-indigo-50'
+                    : 'text-primary-600 hover:text-primary-500 hover:bg-gray-50'
                 }`
               }
               onClick={() => setIsOpen(false)}

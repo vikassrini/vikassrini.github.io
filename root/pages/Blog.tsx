@@ -6,7 +6,7 @@ import { blogSeries } from '../data/blogPosts';
 const Blog = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-      <h1 className="text-4xl font-bold text-gray-900 sm:text-5xl text-center mb-6">
+      <h1 className="font-display text-4xl font-bold text-gray-900 sm:text-5xl text-center mb-6">
         Blog
       </h1>
       <p className="text-xl text-gray-600 text-center mb-16 max-w-3xl mx-auto">
@@ -17,8 +17,8 @@ const Blog = () => {
       <div className="grid gap-12 lg:grid-cols-2">
         {blogSeries.map((series) => (
           <article
-            key={series.id}
-            className="group bg-white rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
+          key={series.id}
+          className="group bg-white rounded-2xl shadow-soft overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1"
           >
             <div className="relative h-64 overflow-hidden">
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-black/0 z-10" />
@@ -43,7 +43,7 @@ const Blog = () => {
               </div>
               <Link 
                 to={`/blog/series/${series.id}`}
-                className="inline-flex items-center text-indigo-600 hover:text-indigo-500 font-medium"
+                className="inline-flex items-center text-primary-600 hover:text-primary-500 font-medium"
               >
                 View Series
                 <ChevronRight className="ml-1 h-5 w-5" />
