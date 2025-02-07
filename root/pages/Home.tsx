@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import ProfileImage from '../public/VikasSrinivasa.jpeg';
 
 const Home = () => {
   return (
@@ -42,12 +43,12 @@ const Home = () => {
         </div>
 
         {/* Image with Animation */}
-        <div className="mt-10 lg:mt-0 lg:w-1/3 flex justify-center">
+        <div className="mt-10 lg:mt-0 lg:w-1/2 flex justify-center">
           <motion.img
-            className="rounded-lg shadow-lg"
-            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
-            alt="Developer workspace"
-            whileHover={{ scale: 1.05 }}
+            className="rounded-full w-80 h-80 shadow-lg border-4 border-primary-600"
+            src={ProfileImage} // Replace with your actual photo path
+            alt="Vikas Srinivasa"
+            whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           />
         </div>

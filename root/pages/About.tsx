@@ -1,7 +1,5 @@
 import React from 'react';
 import { Code, Briefcase, GraduationCap } from 'lucide-react';
-import ProfileImage from '../public/VikasSrinivasa.jpeg';
-
 
 const About = () => {
   return (
@@ -15,7 +13,7 @@ const About = () => {
         <div className="text-center">
           
           <img
-            src={ProfileImage}
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80"
             alt="Vikas Srinivasa"
             className="w-48 h-48 rounded-full mx-auto mb-6 object-cover shadow-lg transition-transform hover:scale-105"
           />
