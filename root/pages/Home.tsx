@@ -17,10 +17,7 @@ const Home = () => {
             I am an AI & FinTech enthusiast and machine learning engineer based in Bengaluru, India. Passionate about crafting intuitive and insightful technical blogs, I strive to make complex concepts accessible and engaging.
           </p>
           <p className="mt-3 text-xl text-gray-500 sm:mt-5">
-            To learn more about me, visit the About page. For deep dives into AI, ML, and FinTech, explore my Blog and immerse yourself in cutting-edge ideas.           
-          </p>
-          <p className="mt-4 text-lg text-gray-600">
-            🚀 Dive into my <Link to="/blog" className="text-primary-600 font-semibold hover:underline">Blog</Link> for deep insights on AI, ML, and FinTech.
+            To learn more about me, visit the About page.🚀 For deep dives into AI, ML, and FinTech, explore my Blog and immerse yourself in cutting-edge ideas.           
           </p>
           
           {/* Buttons */}
