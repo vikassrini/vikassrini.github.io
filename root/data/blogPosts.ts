@@ -20,7 +20,7 @@ export interface BlogSeries {
   
   export const blogSeries: BlogSeries[] = [
     {
-      id: 'transformers',
+      id: 'transformers-an-intuitive-guide',
       title: 'Transformers: An Intuitive Guide',
       description: 'Ever wondered how transformers power AI models like GPT & BERT? \
                     This blog series breaks down these concepts step by step.',
@@ -28,7 +28,7 @@ export interface BlogSeries {
       posts: [
         {
           id: 1,
-          seriesId: 'transformers',
+          seriesId: 'transformers-an-intuitive-guide',
           partNumber: 1,
           title: 'How Transformers Work: Tokenization Embeddings and Positional Encoding Explained (Part 1)',
           excerpt: 'Learn How Transformers Operate Intuitively : The Basics of Tokenization, Embeddings and Positional Encoding',
@@ -39,7 +39,7 @@ export interface BlogSeries {
         },
         {
           id: 2,
-          seriesId: 'transformers',
+          seriesId: 'transformers-an-intuitive-guide',
           partNumber: 2,
           title: 'Transformer Encoder Explained : A Deep Dive into Attention Scores (Part 2)',
           excerpt: 'Deep dive into the self-attention mechanism that powers transformer models.',
@@ -50,7 +50,7 @@ export interface BlogSeries {
         },
         {
             id: 3,
-            seriesId: 'transformers',
+            seriesId: 'transformers-an-intuitive-guide',
             partNumber: 2.1,
             title: 'Understanding the Role of Query, Key, and Value in Transformer Models',
             excerpt: 'Explore the significance of Query, Key, and Value matrices in transformers, and understand their roles through intuitive explanations and analogies',
@@ -62,14 +62,14 @@ export interface BlogSeries {
       ]
     },
     {
-      id: 'trading',
+      id: 'the-ai-edge-in-finance',
       title: 'The AI edge In Finance',
       description: '"The AI Edge in Finance" explores my experiments with AI in finance—from trading strategies to AI-driven financial chatbots.',
       image: 'https://media.istockphoto.com/id/1425905549/photo/digitally-generated-currency-and-exchange-stock-chart-for-finance-and-economy-based-computer.jpg?s=612x612&w=0&k=20&c=E9YrK_FlcJp2UUqSJPRJUnrYv2CM_fW_8nqNW_6eEV8=',
       posts: [
         {
           id: 1,
-          seriesId: 'trading',
+          seriesId: 'the-ai-edge-in-finance',
           partNumber: 1,
           title: 'Leveraging AI/ML for Finance and Trading: A Journey from ML Models to a 23% Gain in simulated environment with an AI-Powered Strategy.',
           excerpt: 'Using Sentiment Analysis for Smarter AI-Based Trading Strategies',
@@ -80,7 +80,7 @@ export interface BlogSeries {
         },
         {
             id: 2,
-            seriesId: 'trading',
+            seriesId: 'the-ai-edge-in-finance',
             partNumber: 2,
             title: 'Why My AI Trading Strategy, Which Returned 23% in 2 Months in a Simulated Environment, is Promising',
             excerpt: 'Evaluating Trading Methods for Fairness and Transparency',
