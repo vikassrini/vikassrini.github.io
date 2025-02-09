@@ -49,16 +49,27 @@ export interface BlogSeries {
           hashnodeUrl: 'https://transformers-goto-guide.hashnode.dev/transformer-encoder-explained-a-deep-dive-into-attention-scores-part-2'
         },
         {
-            id: 3,
-            seriesId: 'transformers-an-intuitive-guide',
-            partNumber: 2.1,
-            title: 'Understanding the Role of Query, Key, and Value in Transformer Models',
-            excerpt: 'Explore the significance of Query, Key, and Value matrices in transformers, and understand their roles through intuitive explanations and analogies',
-            date: '2025-02-06',
-            readTime: '7 min read',
-            image: 'https://cdn.pixabay.com/photo/2023/06/13/16/37/ai-generated-8061337_1280.jpg',
-            hashnodeUrl: 'https://transformers-goto-guide.hashnode.dev/understanding-the-role-of-query-key-and-value-in-transformer-models'
-          }
+          id: 3,
+          seriesId: 'transformers-an-intuitive-guide',
+          partNumber: 2.1,
+          title: 'Understanding the Role of Query, Key, and Value in Transformer Models',
+          excerpt: 'Explore the significance of Query, Key, and Value matrices in transformers, and understand their roles through intuitive explanations and analogies',
+          date: '2025-02-06',
+          readTime: '7 min read',
+          image: 'https://cdn.pixabay.com/photo/2023/06/13/16/37/ai-generated-8061337_1280.jpg',
+          hashnodeUrl: 'https://transformers-goto-guide.hashnode.dev/understanding-the-role-of-query-key-and-value-in-transformer-models'
+        },
+        {
+          id: 4,
+          seriesId: 'transformers-an-intuitive-guide',
+          partNumber: 3,
+          title: 'Transformer Encoder Explained : Multi Head Attention (part 3)',
+          excerpt: 'The mechanism behind multi-head attention in detail',
+          date: '2025-02-08',
+          readTime: '6 min read',
+          image: 'https://cdn.pixabay.com/photo/2023/06/13/16/37/ai-generated-8061337_1280.jpg',
+          hashnodeUrl: 'https://transformers-goto-guide.hashnode.dev/transformer-encoder-explained-multi-head-attention-part-3?source=more_series_bottom_blogs'
+        }
       ]
     },
     {
