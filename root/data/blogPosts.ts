@@ -64,7 +64,7 @@ export interface BlogSeries {
           seriesId: 'transformers-an-intuitive-guide',
           partNumber: 3,
           title: 'Transformer Encoder Explained : Multi Head Attention (part 3)',
-          excerpt: 'The mechanism behind multi-head attention in detail',
+          excerpt: 'Understanding the working of multi-head attention in depth',
           date: '2025-02-08',
           readTime: '6 min read',
           image: 'https://cdn.pixabay.com/photo/2023/06/13/16/37/ai-generated-8061337_1280.jpg',
