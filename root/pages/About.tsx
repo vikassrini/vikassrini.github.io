@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight } from 'lucide-react';
+import { ArrowUpRight, Download } from 'lucide-react';
 
 const skillGroups = [
   {
@@ -205,6 +205,15 @@ const About = () => {
         and where a person must step in — and I want to apply it to AI built for public
         good, where a wrong answer has real consequences for the people relying on it.
       </p>
+
+      <a
+        href="/Vikas-Srinivasa-Resume.pdf"
+        download
+        className="mt-8 inline-flex items-center gap-2 border border-stone-700 px-5 py-2.5 text-sm font-semibold text-stone-200 transition-colors hover:border-stone-500 hover:text-white"
+      >
+        <Download className="h-4 w-4" />
+        Download résumé
+      </a>
 
       {/* Experience */}
       <Section n="01" title="Experience">

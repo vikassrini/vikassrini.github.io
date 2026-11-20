@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, ArrowUpRight } from 'lucide-react';
+import { ArrowRight, ArrowUpRight, Download } from 'lucide-react';
 
 const stats = [
   { value: '51% / 99.18%', label: 'automated at accepted accuracy' },
@@ -54,6 +54,14 @@ const Home = () => {
             View my work
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </Link>
+          <a
+            href="/Vikas-Srinivasa-Resume.pdf"
+            download
+            className="inline-flex items-center gap-2 border border-stone-700 px-5 py-2.5 text-sm font-semibold text-stone-200 transition-colors hover:border-stone-500 hover:text-white"
+          >
+            <Download className="h-4 w-4" />
+            Résumé
+          </a>
           <Link
             to="/blog"
             className="text-sm font-medium text-stone-300 underline decoration-stone-700 underline-offset-[6px] transition-colors hover:text-white hover:decoration-accent"
