@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-stone-950 text-stone-300 antialiased;
+    font-feature-settings: 'ss01', 'cv01';
+  }
+
+  ::selection {
+    @apply bg-accent/25 text-white;
+  }
+}
+
+@layer components {
+  /* Small uppercase monospace label used as a section kicker */
+  .kicker {
+    @apply font-mono text-xs uppercase tracking-[0.2em] text-stone-500;
+  }
+
+  /* Hairline divider used throughout the editorial layout */
+  .hairline {
+    @apply border-stone-800/70;
+  }
+}

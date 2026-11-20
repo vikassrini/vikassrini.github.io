@@ -1,38 +1,47 @@
-import React from 'react';
 import { Github, Linkedin, Mail } from 'lucide-react';
+
+const socials = [
+  { href: 'https://github.com/vikassrini', label: 'GitHub', Icon: Github },
+  { href: 'https://www.linkedin.com/in/vikas-srinivasa', label: 'LinkedIn', Icon: Linkedin },
+  { href: 'mailto:vikas.srinivasa@intuitifi.com', label: 'Email', Icon: Mail },
+];
 
 const Footer = () => {
   return (
-    <footer className="bg-white shadow-inner">
-      <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col items-center space-y-4">
-          <div className="flex space-x-6">
+    <footer className="border-t hairline">
+      <div className="max-w-5xl mx-auto px-5 sm:px-8 py-12">
+        <div className="flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <p className="font-display text-lg font-semibold text-white">
+              Let's build something trustworthy.
+            </p>
             <a
-              href="https://github.com/vikassrini"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-500"
+              href="mailto:vikas.srinivasa@intuitifi.com"
+              className="mt-2 inline-block font-mono text-sm text-stone-400 underline-offset-4 hover:text-accent hover:underline"
             >
-              <Github className="h-6 w-6" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/vikas-srinivasa"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-500"
-            >
-              <Linkedin className="h-6 w-6" />
-            </a>
-            <a
-              href="mailto:srinivasavikas0@gmail.com"
-              className="text-gray-400 hover:text-gray-500"
-            >
-              <Mail className="h-6 w-6" />
+              vikas.srinivasa@intuitifi.com
             </a>
           </div>
-          <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} Vikas Srinivasa. All rights reserved.
-          </p>
+
+          <div className="flex items-center gap-5">
+            {socials.map(({ href, label, Icon }) => (
+              <a
+                key={label}
+                href={href}
+                target={href.startsWith('http') ? '_blank' : undefined}
+                rel={href.startsWith('http') ? 'noopener noreferrer' : undefined}
+                aria-label={label}
+                className="text-stone-500 transition-colors hover:text-white"
+              >
+                <Icon className="h-5 w-5" />
+              </a>
+            ))}
+          </div>
+        </div>
+
+        <div className="mt-10 flex flex-col gap-1 border-t hairline pt-6 font-mono text-xs text-stone-600 sm:flex-row sm:justify-between">
+          <span>© {new Date().getFullYear()} Vikas Srinivasa</span>
+          <span>Applied AI Engineer · Bengaluru, India</span>
         </div>
       </div>
     </footer>

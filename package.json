@@ -1,15 +1,14 @@
 {
-  "name": "vite-react-typescript-starter",
-  "homepage": "https://vikassrini.github.io",
+  "name": "vikassrinivasa-portfolio",
+  "homepage": "https://vikassrinivasa.dev",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp root/public/_redirects dist/ && cp root/public/CNAME dist/",
+    "build": "vite build && cp dist/index.html dist/404.html",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy": "vite build && cp root/public/_redirects dist/ && cp root/public/CNAME dist/ && gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^12.4.1",
